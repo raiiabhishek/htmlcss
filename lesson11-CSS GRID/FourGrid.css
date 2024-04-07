@@ -1,0 +1,12 @@
+.four-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.col-1, .col-3{
+    background-color: lightblue;
+}
+.col-2, .col-4{
+    background-color: lightpink;
+}

@@ -1,0 +1,40 @@
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 200px;
+}
+.picture{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-bottom: 4px;
+}
+.stats{
+    color: rgb(100, 100, 100);
+    margin-left: 8px;
+    margin-bottom: 12px;
+
+}
+.add-button{
+    margin-left: 8px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}

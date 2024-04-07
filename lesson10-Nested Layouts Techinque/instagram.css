@@ -1,0 +1,112 @@
+.insta{
+    display: block;
+    width: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.profile-picture, .edit-button, .share-button , .circle{
+    cursor: pointer;
+}
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.post{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+.followers{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+.following{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+.horizontal-bar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name{
+    font-weight: bold;
+    
+}
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.plus{
+    margin-left: 22px;
+    color: black;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 5px ;
+    font-size: 65px;
+    transition: opacity 0.15s;
+}
+.plus:active{
+    opacity: 0.7;
+}
+.edit-button, .share-button{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(109, 107, 107);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+.story-highlight, .fav-stories, .posts{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.circle, .circleII, .circleIII, .circleIV, .circleV{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(165, 163, 163);
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.new-highlight{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1px;
+    margin-left: 23px;
+    font-size: 16px;
+    text-align: left;
+}
+.circle{
+    background-color: white;
+    border: solid;
+    border-color: rgb(155, 149, 149);
+    transition: 0.15s;
+}
+
+.posts{
+    font-weight: bolder;
+}
+.post-picture{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+

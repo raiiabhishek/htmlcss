@@ -1,0 +1,64 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.left-section {
+    display: flex;
+    align-items: center;
+}
+.profile-picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.name {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add-button {
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    transition: 0.15s;
+}
+
+.message-button {
+    background-color: rgb(197, 194, 194);
+    border: none;
+    color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    transition: 0.15s;
+
+}
+.add-button:active{
+    opacity: 0.7;
+}
+.message-button:active{
+    opacity: 0.7;
+}
+
+.profile-picture, .name, .message-button, .add-button {
+    cursor: pointer;
+}

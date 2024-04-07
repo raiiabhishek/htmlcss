@@ -1,0 +1,12 @@
+.columns-1, .columns-3{
+    background-color: lightblue;
+}
+.columns-2, .columns-4{
+    background-color: lightpink;
+}
+.grid-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+}

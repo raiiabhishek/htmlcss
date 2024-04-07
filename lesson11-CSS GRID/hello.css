@@ -1,0 +1,61 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.facebook-clone{
+    width: 200px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    
+}
+.profile-picture{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.name{
+    font-weight: bold;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.mutual-friend-row{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    align-items: center;
+}
+.mutual-friend-picture{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-left: 4px;
+    
+}
+.mutual-friend{
+    color: gray;
+    font-size: 14px;
+    margin-left: 6px;
+}
+.follow-button{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:  rgb(24, 119, 242);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.follow-button:active{
+    opacity: 0.8;
+}

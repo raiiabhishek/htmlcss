@@ -1,0 +1,38 @@
+.six-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+.first-grid, .third-grid{
+    background-color: lightblue;
+}
+.second-grid{
+    background-color: lightpink;
+}
+
+.three-col-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr 85px;
+    margin-top: 10px;
+}
+.first, .third{
+    background-color: lightblue;
+}
+.second{
+    background-color: lightpink;
+}
+.four-col-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+.first-col, .third-col{
+    background-color: lightblue;
+}
+.second-col, .fourth-col{
+    background-color: lightpink;
+}

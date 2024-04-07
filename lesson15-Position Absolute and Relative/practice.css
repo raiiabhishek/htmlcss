@@ -1,0 +1,75 @@
+body{
+    padding-left: 80px;
+    padding-top: 60px;
+    height: 3000px;
+}
+.header-container  {
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 100;
+    
+}
+.absoulte-button-one {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 2px;
+    right: 2px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 60px;
+    right: 10px;
+    
+  
+}
+.side-bar {
+    position: fixed;
+    background-color: green;
+    left: 0px;
+    top: 50px;
+    bottom: 0px;
+    padding-right: 20px;
+}
+.first-div{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.second-div{
+    background-color: lightpink;
+    width: 200px;
+    height: 200px;
+    position: relative; 
+}
+.absolute-relative {
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 10px;
+    bottom: 10px;
+  
+}
+.time-button{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    border-radius: 2px;
+    font-size: 10px;
+}

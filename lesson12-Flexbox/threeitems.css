@@ -1,0 +1,16 @@
+.three-flex-items{
+    display: flex;
+    flex-direction: row;
+}
+.item-one{
+    background-color: lightblue;
+    width: 50px;
+}
+.item-two{
+    background-color: lightpink;
+    flex: 1;
+}
+.item-three{
+    background-color: lightblue;
+    width: 75px;
+}

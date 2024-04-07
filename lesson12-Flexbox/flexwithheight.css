@@ -1,0 +1,16 @@
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+.item-one{
+    background-color: lightblue;
+}
+.item-two{
+    background-color: lightpink;
+}

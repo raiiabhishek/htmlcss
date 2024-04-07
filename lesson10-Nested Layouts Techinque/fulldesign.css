@@ -1,0 +1,127 @@
+.search-container{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: rgb(120, 82, 178);
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.home-button{
+    font-weight: bold;
+}
+.search-button{
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 250px;
+}
+.notification-flex-box{
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    
+}
+.download-button{
+    background-color: rgb(120, 82, 178);
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.notification{
+    background-color: rgb(49, 109, 245);
+    color: white;
+    border: solid;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+.profile-flex{
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.name{
+    font-weight: bold;
+}
+.info{
+   width: 1000px;
+
+}
+.category{
+    color: gray;
+    font-size: 14px;
+}
+.stats{
+    color: gray;
+    font-size: 13px;
+}
+.follow-button{
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}

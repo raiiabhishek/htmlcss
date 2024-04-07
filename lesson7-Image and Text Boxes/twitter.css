@@ -1,0 +1,33 @@
+.picture{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.text{
+    font-size: 18px;
+    border: none;
+    width: 300px;
+    vertical-align: middle;
+}
+.tweet{
+    background-color:rgb(72, 107, 202);
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    vertical-align: middle;
+    transition: opacity 0.15s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.tweet:active{
+    opacity: 0.9;
+}

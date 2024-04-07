@@ -1,0 +1,44 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 12px;
+    margin-bottom: 9px;
+    margin-top: 2px;
+}
+input{
+    display: block;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    width: 400px;
+}
+.request-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-style: solid;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 200px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.schedule-button{
+    background-color: rgb(240, 240, 240);
+    border:none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 200px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+   

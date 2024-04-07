@@ -1,0 +1,45 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(100, 100, 100);
+}
+.mail{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.text-box{
+    font-size: 16px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+    color: rgb(105, 104, 104);
+}
+.Policy{
+    color: gray;
+    margin-bottom: 22px;
+}
+
+.Join-button{
+    background-color:rgb(10, 102, 194);
+    border: none;
+    color: white;
+    padding-left:130px;
+    padding-right: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+    font-size: 24px; 
+    cursor: pointer;  
+    transition: opacity 0.15s;
+}
+.Join-button:hover{
+    opacity: 0.9;
+}
+.Join-button:active{
+    opacity: 0.6;
+}

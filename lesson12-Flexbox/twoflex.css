@@ -1,0 +1,12 @@
+.two-flex{
+    display: flex;
+    flex-direction: row;
+}
+.two-hun{
+background-color: lightblue;
+width: 200px;
+}
+.sev-five{
+    background-color: lightpink;
+    width: 75px;
+}

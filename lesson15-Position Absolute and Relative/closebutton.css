@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    width: 400px;
+    height: 150px;
+    background-color: gray;
+}
+.close-button-text {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.close-button-text:active {
+    opacity: 0.7;
+}
+.close-button {
+    color: white;
+    top: 4px;
+    right: 4px;
+    position: absolute;
+    background-color: black;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.close-button:active{
+    opacity: 0.7;
+}
